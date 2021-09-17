@@ -55,9 +55,13 @@ if($_REQUEST)
     <!---->
     <section>
         <div class="container">
-            <br>
-            <div class="row">
-                <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+            <div class="row align-items-center vh-100">
+                <div class="col-12 col-md-6">
+                    <div class="text-center">
+                        <img src="images/account.svg" class="img-fluid" width="400">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card shadow">
                         <div class="card-body">
                             <form method="POST">
